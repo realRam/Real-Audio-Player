@@ -21,7 +21,7 @@ function loadSong () {
 	nextSong.innerHTML = "<b>Next Song:</b>"+songs[currentSong+1% songs.length];
 	song.volume = volumeSlider.value;
 	song.play();
-	setTimeout(showDuration,1000);
+	setTimeout(showDuration,2000);
 }
 
 setInterval(updateSongSlider, 1000);

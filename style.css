@@ -1,0 +1,60 @@
+
+		body{
+			background-repeat:no-repeat;
+			background-position:center;
+		}
+		
+		.Real{
+			width: 650px;
+			height: 300px;
+			background: #ffffcc	;
+            text-shadow: 2px 2px 4px #000000;	
+			box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+			color: #42b0f4;
+			margin: auto;
+			font-family: Times New Roman;
+			font-size: 30px;
+		}
+		
+		.logo{
+			float:left;
+		}
+		
+		.player{
+			float:right;
+			margin: 7px;
+		}
+		
+		.song-title{
+			width:400px;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+		
+		.song-slider{
+			width:396px;
+		}
+		
+		.current-time{
+			float:left;
+		}
+		
+		.duration{
+			float:right;
+			padding: 0px 50px 0px 0px;
+		}
+		
+		.controllers{
+			float:left;
+			margin: auto;
+			width: 57%;
+			border: 3px solid white;
+			padding: 10px;
+		}
+		
+		.volume-slider{
+			width: 90px;
+			margin-left: 5px;
+		}
+	</style>
